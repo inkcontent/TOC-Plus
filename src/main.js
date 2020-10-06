@@ -19,7 +19,7 @@ async function doExport() {
   const htmlStr = await Editor.getHTML();
   //extract h2, ... ,h6 here
   const converted = htmlStr.match(/<h[2-6][^>]*?>(?<TagText>.*?)<\/h[2-6]>/g) || [];
-  const toc = converted.map(extractContent).join("\n");
+  const toc = converted.map(extractHeadingContent).join("\n");
   IO.saveFile(toc, 'toc');
 }
 
