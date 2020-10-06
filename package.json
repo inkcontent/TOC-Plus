@@ -1,0 +1,26 @@
+{
+  "name": "toc-plus",
+  "version": "1.1.0",
+  "homepage": "https://toc-plugin.pk",
+  "description": "This plugin automatically generates table of contents for your article without any hassle",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "inkplugin package -o dist"
+  },
+  "author": "Syed Faris Ahmed",
+  "license": "MIT",
+  "ink-plugin": {
+    "id": "acb86ddc-bba6-4a48-b3c9-3c6403a12ff5",
+    "title": "TOC Plus",
+    "icon": "assets/icon.png",
+    "readme": "readme.md",
+    "module": false
+  },
+  "engines": {
+    "ink": "^2.0.0"
+  },
+  "devDependencies": {
+    "inkplugin": "^0.2.7"
+  }
+}
