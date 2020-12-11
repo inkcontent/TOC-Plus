@@ -1,6 +1,6 @@
 {
   "name": "toc-plus",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://toc-plugin.pk",
   "description": "This plugin automatically generates table of contents for your article without any hassle",
   "main": "src/main.js",
